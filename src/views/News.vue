@@ -4,13 +4,13 @@
     <div class="web-common-inner common-main-section">
         <BreadCrumbs />
         <h1 class="page-title">보도자료</h1>
-        <section v-for="item in newsList" id="news-list-box">
-            <router-link v-for="subItem in item.children.slice().reverse()" :to="{name: 'news_in', params: {id: subItem.number}}"><!-- 반복구간 시작  // reverse()역순가져오기-->
+        <section id="news-list-box">
+            <router-link v-for="item in newsList.slice().reverse()" :to="{name: 'news_in', params: {id: item.number}}"><!-- 반복구간 시작  // reverse()역순가져오기-->
             <div class="news-list-line">
-                <img data-item-img :src="subItem.thumImg" alt="">
-                <span data-item-site>{{subItem.site}}</span>
-                <h4 data-item-title>{{subItem.title}}</h4>
-                <span data-item-data>{{subItem.date}}</span>
+                <img data-item-img :src="item.thumImg" alt="">
+                <span data-item-site>{{item.site}}</span>
+                <h4 data-item-title>{{item.title}}</h4>
+                <span data-item-data>{{item.date}}</span>
             </div>
             </router-link>
             <!--반복 끝-->

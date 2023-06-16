@@ -13,14 +13,14 @@ export const useIntrosStore = defineStore('intros', () => {
                 {
                     outTitle: '"정직한 마음, 올바른 행동, 성실한 삶"',
                     outTexts: [
-                        { texts: '안녕하십니까. 본사를 찾아주셔서 감사합니다. ' },
-                        { texts: '소나무정보기술은 2006년 한국의 주식회사 신광과 일본의 케이블트레이 전문업체 네구로스전공 주식회사의 한일 합작회사입니다.' },
-                        { texts: '본사는 설립이래 발전된 기술로 고품질의 케이블 타레이 시스템을 제조하고 있습니다.' },
-                        { texts: '설계 및 제작부터 도금/포장/출하까지 전 공정의 Non-stop 시스템을 갖추고 있으며, 세계 각국의 발전소, 제철소, 화학공장을 비롯하여 조선 해양 분야에 Cable Management System을 제공하고 있습니다.' },
-                        { texts: '고객과의 신뢰를 바탕으로 고객 만족을 위해 노력하며, 해옵ㄱ을 담은 가족같은 회사로 희망의 메신저가 되도록 노력하겠습니다.' },
+                        { texts: '안녕하십니까. 주식회사 소나무정보기술을 찾아주셔서 감사합니다. ' },
+                        { texts: '소나무정보기술은 혁신적인 디지털 솔루션과 서비스를 제공하는 SI업체입니다.' },
+                        { texts: '우리는 항상 최신 기술 동향을 주시하고 꾸준한 학습과 개발을 통하여 역량을 강화하여 가장 현대적이고 효과적인 솔루션을 제공할 수 있도록 노력하고 있습니다.' },
+                        { texts: '소나무정보기술의 목표는 고객과의 긴밀한 협력으로 최적의 결과물을 제공함으로써 고객들이 디지털 환경에서 경쟁력을 유지하고 성장할 수 있도록 돕는 것입니다.' },
+                        { texts: '신뢰를 바탕으로 고객 만족을 위해 노력하며, 행복을 담은 가족같은 회사로 희망의 메신저가 되도록 노력하겠습니다.' },
                         { texts: '감사합니다.' },
                     ], 
-                    outCEO: '대표이사 김미경',
+                    outCEO: '대표이사 최재영',
                     outSign: ``
                 }
             ],
@@ -28,16 +28,15 @@ export const useIntrosStore = defineStore('intros', () => {
             ideoChildren: [
                 {
                     ideoTitle: '혁신을 통하여 지속 가능한 미래를 만들어갑니다',
-                    // ideoTitle: '"현실에 만족하지 않고 앞서가는 기술력으로 세상에 기여한다"',
                     ideoSubT: '서로 존중하고 협력하며 지속적인 성장과 발전을 이루어나갑니다.',
                     ideoFirst: [
-                        { ideoNameEng: '和以能就', ideoName: '화이능취', ideoTexts: 'Work together to achieve a goal' },
+                        { ideoNameEng: 'Innovation', ideoName: '혁신', ideoTexts: '혁신을 추구하여 문제를 해결하고 비즈니스를 성장시키는데 기여한다.' },
                     ],
                     ideoSecond: [
-                        { ideoNameEng: '三現主義', ideoName: '삼현주의', ideoTexts: 'The actual place, The actual part, The actual situation' },
+                        { ideoNameEng: 'Quality', ideoName: '품질', ideoTexts: '높은 수준의 품질과 우수성을 추구하여 고객에게 가치를 제공한다.' },
                     ],
                     ideoThird: [
-                        { ideoNameEng: '心淸事達', ideoName: '심청사달', ideoTexts: 'If mind is lucid, all goes well' },
+                        { ideoNameEng: 'Continuous Growth', ideoName: '지속적인 성장', ideoTexts: '항상 발전하고 개선하기 위해 노력하며 개인과 조직의 능력 향상에 주력한다.' },
                     ]
                 }
             ]
@@ -50,56 +49,42 @@ export const useIntrosStore = defineStore('intros', () => {
     const hsGroup = ref([
         {
             hsIndex: 0,
-            hsYear: 2017,
+            hsYear: 2022,
             childrens: [
-                { hsItem: '' }
+                { hsItem: '메뉴판 주문앱 WEB/APP 구축' },
+                { hsItem: '한국도로공사 경남본부 현장관리시스템 WEB 구축' },
+                { hsItem: '울산광역시 교육연구정보원 스쿨넷 교육망 전산관리시스템 구축' },
+                { hsItem: '조선통신사 디지털 아카이브 WEB / VR 구축' },                
+                { hsItem: '통합예약 커뮤니티 다이브채널 시즌 2 개편' },
+                { hsItem: '와인모임 플랫폼 와인투게더 구축' },
+                { hsItem: '현대중공업 표준폼관리 시스템 WEB 구축' },
+                { hsItem: 'ERP 모바일 APP 구축 6개사' },
+                
             ]
         },
         {
             hsIndex: 0,
-            hsYear: 2015,
+            hsYear: 2021,
             childrens: [
-                { hsItem: '15.03 Exxon Mobil 품질 승인' },
-                { hsItem: '15.03 자랑스런 김해시 CEO상 수상' },
-                { hsItem: '15.06 고성장 수출 기업 지정' },
-                { hsItem: '15.12 김해시 체육회 감사패 수여' },
-                { hsItem: '16.02 스리랑카 68주년 독립 기념 감사패 수여' }
+                { hsItem: '통합예약 커뮤니티 다이브채널 구축' },
+                { hsItem: '주) 큐에스 PRMS 구축' },
+                { hsItem: 'ISO 9001:2015 인증 획득' },
+                { hsItem: '스마트팩토리 지원사업 MES 구축 11개사' },
+                { hsItem: '스마트 세이프 가드레일 시스템 구축' },
+                { hsItem: 'DRONOUS 드론관제시스템 개발 참여' },
             ]
         },
         {
             hsIndex: 0,
-            hsYear: 2010,
+            hsYear: 2020,
             childrens: [
-                { hsItem: '10.04 ABS WPS 인증' },
-                { hsItem: '10.12 김해 시장 표창' },
-                { hsItem: '10.12 EATON B-LINE 공급 계약 체결' },
-                { hsItem: '11.06 연구개발센터 설립' },
-                { hsItem: '12.12 49회 무역의 날 천만불 수출탑 수상' },
-                { hsItem: '13.11 TOSHIBA PLANT SYSTEMS & SERVICES "품질상" 수상' },
-                { hsItem: '14.02 MITSUBISHI ELEC. 감사장 수상' },
-                { hsItem: '14.12 삼성중공업 안전관리 우수상 수상' },
+                { hsItem: 'SPSYSTEM 5G AR기반 스마트갠트리로더 개발 (부산경제진흥원)' },
+                { hsItem: 'AR기반 양식장 수중모니터링 증강현실 (부산테크노파크)' },
+                { hsItem: '주) 부산철강 MES 구축' },
+                { hsItem: '주) THE SAFETY PMS시스템 구축' },
+                { hsItem: '주) 코넥 테슬라 LMS시스템 구축' },
             ]
         },
-        {
-            hsIndex: 0,
-            hsYear: 2006,
-            childrens: [
-                { hsItem: '06.04 주식회사 소나무정보기술 창립' },
-                { hsItem: '07.05 ISO 9001-2000 인증' },
-                { hsItem: '08.04 MITSUBISHI ELECTRIC 감사장 수상' },
-                { hsItem: 'KS 인증' },
-            ]
-        },
-        {
-            hsIndex: 0,
-            hsYear: 2002,
-            childrens: [
-                { hsItem: '02.08 (주)신광 창립' },
-                { hsItem: '02.11 ABS WPS 획득' },
-                { hsItem: '04.01 사할린 LNG Project Cable Tray 공급' }                
-            ]
-        },
-
 
     ]);
 
@@ -108,56 +93,56 @@ export const useIntrosStore = defineStore('intros', () => {
     const certGroup = ref([
         {
             certIndex: 0,
-            cate: '인증서',
-            certTtitle: '제품인증서',
-            imgUrl: `/assets/images/snc_cert/cert_standard.png`,
-            certNumber: '...',
-            certDate: '2010-07-01',
+            cate: '기타',
+            certTtitle: '기업부설연구소 인정서',
+            imgUrl: `/assets/images/cert/rsch.png`,
+            certNumber: '-',
+            certDate: '2023-01-26',
             isView: false
         },
         {
             certIndex: 1,
             cate: '인증서',
-            certTtitle: 'KSA certificate of approval',
-            imgUrl: `/assets/images/images/snc_cert/cert_ksa.png`,
-            certNumber: '...',
-            certDate: '2006-03-16',
+            certTtitle: '소프트웨어 품질인증서',
+            imgUrl: `/assets/images/cert/gs.png`,
+            certNumber: '22-0014',
+            certDate: '2022-10-20',
             isView: false
         },
         {
             certIndex: 2,
-            cate: '기타',
-            certTtitle: 'ABS',
-            imgUrl: `/assets/images/images/snc_cert/cert_abs.png`,
-            certNumber: '11-55',
-            certDate: '2011-06-01',
+            cate: '인증서',
+            certTtitle: 'ISO 9001:2015 품질경영인증',
+            imgUrl: `/assets/images/cert/iso.png`,
+            certNumber: 'Q386521',
+            certDate: '2021-11-19',
             isView: false
         },
         {
             certIndex: 3,
-            cate: '기타',
-            certTtitle: '...',
-            imgUrl: `/assets/images/images/snc_cert/cert_bt01.png`,
-            certNumber: '10-0750565',
-            certDate: '2007-05-13',
+            cate: '인증서',
+            certTtitle: '직접생산확인증명서',
+            imgUrl: `/assets/images/cert/sw.png`,
+            certNumber: '2022-0507-04547',
+            certDate: '2022-09-22',
             isView: false
         },
         {
             certIndex: 4,
             cate: '기타',
-            certTtitle: '...',
-            imgUrl: `/assets/images/images/snc_cert/cert_bt02.png`,
-            certNumber: '10-0694841',
-            certDate: '2007-04-07',
+            certTtitle: '프로그램 등록증',
+            imgUrl: `/assets/images/cert/program.png`,
+            certNumber: '2010-01-189-005397',
+            certDate: '2010-09-20',
             isView: false
         },
         {
             certIndex: 5,
-            cate: '기타',
-            certTtitle: '...',
-            imgUrl: `/assets/images/images/snc_cert/cert_bt03.png`,
-            certNumber: '30-0442843',
-            certDate: '2007-03-05',
+            cate: '인증서',
+            certTtitle: 'KC인증',
+            imgUrl: `/assets/images/cert/kc.png`,
+            certNumber: 'R-R-pi0-PN-SGR-SB01',
+            certDate: '2023-01-05',
             isView: false
         }
     ])
@@ -168,25 +153,26 @@ export const useIntrosStore = defineStore('intros', () => {
         {
             indexs: 0,
             compName: [
-                {compFirst: 'S', compLast: 'NC'}
+                {compFirst: '주)', compLast: '소나무 정보기술'}
             ],
             sectionTitle: '본사',
-            tel: '+82-55-327-6023',
-            fax: '+82-55-327-3033',
+            tel: '+82-51-714-0034',
+            fax: '+82-51-714-0034',
             mail: '-',
-            locate: '경상남도 김해시 유하로 201',
+            locate: '부산광역시 부산진구 엄광로 176 331호',
             publicTr: [
                 { 
                     subway: [
                         { subwItem: '-' }
                     ], 
                     bus: [
-                        { busItem: '대한가스 하차 / 도보 약 4분 ' },
-                        { busItem: '남명더라우 하차 / 도보 약 36분' }
+                        { busItem: '새벽시장 하차 / 도보 약 5분 ' },
+                        { busItem: '학장입구 하차 / 도보 약 10분' }
                     ]  
                 }
             ],
             mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.5487607409304!2d127.5431871763837!3d34.99296587281716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e11fd80d0dbc9%3A0x7c83115ce2a28e76!2z7IK87ZmU6riw7JeF!5e0!3m2!1sko!2skr!4v1681198673035!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade',
+            mapUrl: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.6097521447805!2d129.0309592762115!3d35.141410972766344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568ebb40a6cf031%3A0xf255b7423a881690!2zKOyjvCnshozrgpjrrLTsoJXrs7TquLDsiKA!5e0!3m2!1sko!2skr!4v1686890240019!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"',
         },
         // {
         //     indexs: 1,

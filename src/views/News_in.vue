@@ -3,21 +3,21 @@
     <div id="" class="web-common-inner common-main-section">
         <BreadCrumbs />
 
-        <section v-if="newsGroup[getId]" id="news-detail">
+        <section v-if="newsList[getId]" id="news-detail">
             <div class="news-content-box">
-                <h1>{{newsGroup[getId].title}}</h1>
+                <h1>{{newsList[getId].title}}</h1>
 
                 <article class="news-date-box">
-                    <span>{{newsGroup[getId].site}}</span>
-                    <span>{{newsGroup[getId].date}}</span>
+                    <span>{{newsList[getId].site}}</span>
+                    <span>{{newsList[getId].date}}</span>
                 </article>
             </div>
             <div class="news-content-text">
                 <p class="linkAdd"> 사이트 주소 : 
-                    <a :href="newsGroup[getId]?.linkTo" target="_blank">{{ newsGroup[getId].linkTo }}</a>
+                    <a :href="newsList[getId]?.linkTo" target="_blank">{{ newsList[getId].linkTo }}</a>
                 </p>
                 <br>
-                <img :src="newsGroup[getId].thumImg">
+                <img :src="newsList[getId].thumImg">
 
                <br>
                <p>보도내용의 직접적인 외부 게재는 저작권위반에 해당하는 관계로 해당 기사를 열람할 수 있는 링크를 게재합니다.</p>
@@ -46,7 +46,7 @@
             <!-- <a :href="'../news/' + (getId - 1)" v-else ref="prevLink"> -->
                 <div id="divMilePrev">
                     <p class="prev-next-list">이전 글 <i class="ri-arrow-up-s-line"></i></p>
-                    <p data-milestone-prev-title>{{ newsGroup[getId - 1]?.title }}</p>
+                    <p data-milestone-prev-title>{{ newsList[getId - 1]?.title }}</p>
                 </div>
             <!-- </a> -->
             </router-link>
@@ -60,7 +60,7 @@
             
                 <div id="divMileNext">
                     <p class="prev-next-list next-list">다음 글 <i class="ri-arrow-down-s-line"></i></p>
-                    <p data-milestone-next-title>{{ newsGroup[getId + 1]?.title }}</p>
+                    <p data-milestone-next-title>{{ newsList[getId + 1]?.title }}</p>
                 </div>
             
             </router-link>
@@ -82,17 +82,17 @@
     import { storeToRefs } from 'pinia';
 
     const newsStore = useNewsStore()
-    const { newsGroup } = storeToRefs(newsStore)
+    const { newsList } = storeToRefs(newsStore)
 
     const getParams = useRoute()
     const getId = parseInt(getParams.params.id)
     console.log(getId)
 
-    const dataAmount = parseInt(newsGroup.value.length);
+    const dataAmount = parseInt(newsList.value.length);
     const nextArticle = parseInt(getId + 2);
     const prevArticle = parseInt(getId - 1);
 
-    const currentArray= newsGroup.value[getId];
+    const currentArray= newsList.value[getId];
     const nextTitle = currentArray["title"];
 
 </script> <!-- Logic Ends -->
