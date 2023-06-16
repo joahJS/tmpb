@@ -13,7 +13,7 @@ export const useDatasStore = defineStore('datas', () => {
                 {
                     bindIndex:'0',
                     number: '1',
-                    title: 'SNC Catalog 다운로드',
+                    title: '소나무정보기술 Catalog 다운로드',
                     date: '2023.06.12',
                 },
 
@@ -27,11 +27,11 @@ export const useDatasStore = defineStore('datas', () => {
         {
             bindIndex:'0',
             number: '1',
-            title: 'SNC Catalog 다운로드',
+            title: '소나무정보기술 Catalog 다운로드',
             date: '2023.06.12',
             thumImg: '',
             texts: `
-                <p>SNC 제품 Catalog를 통하여 다양한 제품을 한눈에 확인하세요.</p>
+                <p>소나무정보기술 제품 Catalog를 통하여 다양한 제품을 한눈에 확인하세요.</p>
                 <p>Catalog를 다운로드하시려면 아래 링크를 클릭해주세요.</p>
 
             `,

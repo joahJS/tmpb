@@ -14,7 +14,7 @@ export const useIntrosStore = defineStore('intros', () => {
                     outTitle: '"정직한 마음, 올바른 행동, 성실한 삶"',
                     outTexts: [
                         { texts: '안녕하십니까. 본사를 찾아주셔서 감사합니다. ' },
-                        { texts: 'SNC는 2006년 한국의 주식회사 신광과 일본의 케이블트레이 전문업체 네구로스전공 주식회사의 한일 합작회사입니다.' },
+                        { texts: '소나무정보기술은 2006년 한국의 주식회사 신광과 일본의 케이블트레이 전문업체 네구로스전공 주식회사의 한일 합작회사입니다.' },
                         { texts: '본사는 설립이래 발전된 기술로 고품질의 케이블 타레이 시스템을 제조하고 있습니다.' },
                         { texts: '설계 및 제작부터 도금/포장/출하까지 전 공정의 Non-stop 시스템을 갖추고 있으며, 세계 각국의 발전소, 제철소, 화학공장을 비롯하여 조선 해양 분야에 Cable Management System을 제공하고 있습니다.' },
                         { texts: '고객과의 신뢰를 바탕으로 고객 만족을 위해 노력하며, 해옵ㄱ을 담은 가족같은 회사로 희망의 메신저가 되도록 노력하겠습니다.' },
@@ -84,7 +84,7 @@ export const useIntrosStore = defineStore('intros', () => {
             hsIndex: 0,
             hsYear: 2006,
             childrens: [
-                { hsItem: '06.04 (주)SNC 창립' },
+                { hsItem: '06.04 주식회사 소나무정보기술 창립' },
                 { hsItem: '07.05 ISO 9001-2000 인증' },
                 { hsItem: '08.04 MITSUBISHI ELECTRIC 감사장 수상' },
                 { hsItem: 'KS 인증' },

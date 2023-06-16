@@ -8,7 +8,7 @@
             <div data-footer-texts class="self-center leading-4">
                 <p>
                     <span class="font-bold">회사명</span>
-                    <span>SNC</span>
+                    <span>소나무정보기술</span>
                 </p>
                 <p>
                     <span class="font-bold">대표자</span>

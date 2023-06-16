@@ -34,7 +34,7 @@ export const useCatesStore = defineStore('cates', () => {
                     number: '3',
                     thumImg: `/assets/images/snc_prod/prod-strut.jpg`,
                     title: 'STRUT',
-                    subTitle: 'SNC Product - STRUT',
+                    subTitle: '소나무정보기술 Product - STRUT',
                 },
 
                 
