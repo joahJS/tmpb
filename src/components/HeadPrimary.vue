@@ -3,7 +3,7 @@
         <div class="container flex justify-between items-center px-2">
             <h1 id="mainLogo">
                 <router-link to="/">
-                    <img src="/assets/images/snc_main/snc_logo.png" alt="mainLogo">
+                    <img src="/assets/images/pineit_CI.png" alt="mainLogo">
                  </router-link>
             </h1>
 

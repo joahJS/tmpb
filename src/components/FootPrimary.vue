@@ -2,7 +2,7 @@
     <footer id="footPrimary">
         <div class="web-common-inner inner-box">
             <div class="text-center">
-                <img src="/assets/images/snc_main/logo_ft.png" class="w-16 mx-auto mb-1">
+                <img src="/assets/images/pineit_CI_gray.png" class="w-16 mx-auto mb-1">
                 <span class="font-bold"></span>
             </div>
             <div data-footer-texts class="self-center leading-4">
@@ -12,19 +12,19 @@
                 </p>
                 <p>
                     <span class="font-bold">대표자</span>
-                    <span>김미경</span>
+                    <span>최재영</span>
                 </p>
                 <p>
                     <span class="font-bold">주소</span>
-                    <span>경상남도 김해시 유하로 201</span>
+                    <span>부산광역시 부산진구 엄광로 176 331호</span>
                 </p>
                 <p>
                     <span class="font-bold">TEL</span>
-                    <span>055 - 327 - 6023</span>
+                    <span>051 - 714 - 0034</span>
                 </p>
                 <p>
                     <span class="font-bold">FAX</span>
-                    <span>055 - 327 - 3033</span>
+                    <span>055 - 714 - 0034</span>
                 </p>
                 <br>
                 <p class="copyright">© {{ copyYear }} by 소나무정보기술, All rights reverved. </p>
