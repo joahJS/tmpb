@@ -72,35 +72,35 @@
         },
         {
             uniqueKey: 1,
-            userPicture: 'show2.jpg',
+            userPicture: '/assets/images/usersshow2.jpg',
             userName: '함평 남산 미르체 아파트',
             workField: '.',
             commentAbout: '강도가높아 동결융해가 안되며, 포장즉시 사용가능'
         },
         {
             uniqueKey: 2,
-            userPicture: 'show3.jpg',
+            userPicture: '/assets/images/usersshow3.jpg',
             userName: '광주 수완지구 오천유통',
             workField: '.',
             commentAbout: '결합식 인터록킹 블록으로 제작되어 뒤틀림변이 없고 시공이 간단하고 포장즉시 사용가능'
         },
         {
             uniqueKey: 3,
-            userPicture: 'show4.jpg',
+            userPicture: '/assets/images/usersshow4.jpg',
             userName: '유어면 농로 정비공사 A',
             workField: '.',
             commentAbout: '잔디번식이 용이하고, 블록으로 구역 표시가 가능'
         },
         {
             uniqueKey: 4,
-            userPicture: 'show5.jpg',
+            userPicture: '/assets/images/usersshow5.jpg',
             userName: '주암천',
             workField: '.',
             commentAbout: '화단경계용으로 사용되며 곡선을 만들 수 있고 가격이 저렴해 많은 영역에서 사용가능'
         },
         {
             uniqueKey: 5,
-            userPicture: 'show6.jpg',
+            userPicture: '/assets/images/usersshow6.jpg',
             userName: '곡성역 진입도로',
             workField: '.',
             commentAbout: '화단경계용으로 사용되며 곡선을 만들 수 있고 가격이 저렴해 많은 영역에서 사용가능'

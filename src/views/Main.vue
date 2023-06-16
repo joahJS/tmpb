@@ -4,7 +4,7 @@
 
         <div id="mainIntro">
             <h1 class="page-title">
-                삼화기업만의 자부심
+                소나무정보기술만의 자부심
             </h1>
 
             <div id="mainIntroGrid">
