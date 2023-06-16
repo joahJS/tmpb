@@ -44,7 +44,7 @@
         </button>
 
         <router-link to="/" class="mLogo-router">
-            <img src="/assets/images/logo_w.png" alt="mainLogo" class="m_logo">
+            <img src="/assets/images/CI_header_white.svg" alt="mainLogo" class="m_logo">
          </router-link>
     </div>
 </template> <!-- Template Ends -->

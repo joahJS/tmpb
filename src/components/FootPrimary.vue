@@ -2,7 +2,7 @@
     <footer id="footPrimary">
         <div class="web-common-inner inner-box">
             <div class="text-center">
-                <img src="/assets/images/pineit_CI_gray.png" class="w-16 mx-auto mb-1">
+                <img src="/assets/images/CI_header.svg" class="w-16 mx-auto mb-1">
                 <span class="font-bold"></span>
             </div>
             <div data-footer-texts class="self-center leading-4">
