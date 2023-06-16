@@ -12,14 +12,14 @@
 
             <section id="grtBtm">
                 <div class="grt-imgs-div">
-                    <img src="/assets/images/snc_intro/snc_thum.png" alt="CEO picture">
+                    <img src="/assets/images/grt_sample.jpg" alt="CEO picture">
                 </div>
                 <div class="grt-texts-div">
                     <p v-for="subItems in outItem.outTexts">{{ subItems.texts }}</p>
  
                     <div data-grt-ceo-names>
                         <p class="grt-ceo-name">{{ outItem.outCEO }}</p>
-                        <img data-grt-ceo-sign :src="outItem.outSign" alt="대표자 날인">
+                        <!-- <img data-grt-ceo-sign :src="outItem.outSign" alt="대표자 날인"> -->
                     </div>
                     
                 </div>
